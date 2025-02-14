@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6e920c;
+}
+.logo{
+    font-size: 70px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.cc{
+    margin: 30px;
+}
+.row1{
+    display: grid;
+    margin: 1%;
+}
+.product{
+    text-align: center;
+    border: 1px solid crimson;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.product button{
+    background-color: rgb(195, 204, 69);
+    margin: 15px;
+    border-radius: 15px;
+}
